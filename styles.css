@@ -1,0 +1,105 @@
+*{
+   margin:0;
+   padding:0;
+   font-family: 'futura', sans-serif;
+}
+
+body{
+   background-color:#e9e7e8;
+}
+
+.top-logo {
+   border-width:10px 0px 0px 0px;
+   border-color:#fff200;
+   border-style:solid;
+   margin-right:35px;
+   margin-left:35px;
+   padding-top:10px;
+}
+
+.logo {
+   width:200px;
+   margin:0 auto;
+}
+
+.logo-pic{
+   width:200px;
+}
+
+.bottom-body{
+   height:500px;
+   position:relative;
+   margin-right:35px;
+   margin-left:35px;
+   margin-top:15px;
+}
+
+.pic1{
+   width:25%;
+   display:inline-block;
+   height:inherit;
+   background-image: url(res/dapl.jpg);
+   background-repeat: no-repeat;
+   background-position: left top;
+   margin-right:15px;
+   position:relative;
+}
+
+.pic2{
+   width:25%;
+   display:inline-block;
+   height:inherit;
+   background-image: url(res/great.jpg);
+   background-repeat: no-repeat;
+   background-position: left top;
+   margin-left:15px;
+   margin-right:15px;
+   position:relative;
+}
+
+.pic3{
+   width:45%;
+   display:inline-block;
+   height:inherit;
+   background-image: url(res/Theresa.jpg);
+   background-repeat: no-repeat;
+   background-position: right top;
+   margin-left:20px;
+   position:relative;
+}
+
+h1{
+   color:white;
+   background-color:black;
+   position:absolute;
+   width:80%;
+   bottom:10px;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width:1370px) {
+   .pic1{
+      margin-right:5px
+   }
+   .pic2{
+      margin-left:5px;
+      margin-right:5px;
+   }
+   .pic3{
+      margin-left:5px;
+   }
+}
+
+@media only screen and (max-width:1170px) {
+   h1{
+      font-size:20px;
+   }
+}
+
+@media only screen and (max-width:800px) {
+   .pic1,.pic2,.pic3{
+      width:100%;
+      margin-top:20px;
+
+}
